@@ -16,11 +16,12 @@ const NavBar = () => {
                               <Link className='nav-link active' to="/">Home</Link>
                           </li>
                           <li className='nav-item'>
-                              <Link className='nav-link' to="/about">About</Link>
-                          </li>
-                          <li className='nav-item'>
                               <Link className='nav-link' to="/major">Major</Link>
                           </li>
+                          <li className='nav-item'>
+                              <Link className='nav-link' to="/about">About</Link>
+                          </li>
+                          
                           <form action="" className='d-flex align-items-center gap-2'>
                               <input className="form-control w-75" type="search" placeholder="Search books ... " aria-label="Search" />
                               <button className="btn btn-outline-primary" type="submit"><FontAwesomeIcon icon={ faMagnifyingGlass } /></button>

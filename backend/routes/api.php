@@ -13,4 +13,4 @@ Route::post('/logout', [UserApiController::class, 'logout'])->middleware('auth:s
 
 Route::get('/me', [UserApiController::class, 'viewProfile'])->middleware('auth:sanctum');
 
-Route::apiResource('/books', BookApiController::class);
+Route::apiResource('/books', BookApiController::class)->middleware('auth:sanctum');

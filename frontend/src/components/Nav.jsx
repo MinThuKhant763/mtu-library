@@ -30,7 +30,6 @@ const Nav = () => {
                   </div>
               </div>
           </nav>
-         
           <Outlet />
           
       </>

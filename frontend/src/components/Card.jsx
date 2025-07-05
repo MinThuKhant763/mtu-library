@@ -17,7 +17,7 @@ const Card = ( {title,description}) => {
               <FontAwesomeIcon icon={faBookmark} />
             </a>
             <a href="#" className="btn btn-outline-primary ">
-              <FontAwesomeIcon icon={ faArrowDown } />
+              <FontAwesomeIcon icon={ faArrowDown }   />
             </a>
           </div>
         </div>

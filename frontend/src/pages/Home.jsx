@@ -16,7 +16,7 @@ const Home = () => {
             <div className='col-9 offset-3 ' style={ { marginTop: '70px' } }>
                 <div className=' row pt-4 ms-2' >                 
                     { books.map(({ id, title, description }) => (
-                        <div className='col-3 mb-2' >
+                        <div className='col-3 mb-3' >
                             <Card key={ id } title={ title } description={ description } />
                         </div>
                         )) }   
